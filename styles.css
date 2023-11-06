@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  font-family: "Lato", sans-serif;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  background-color: #000000 !important;
+}
+
+header img {
+  height: auto;
+  margin: 0px 0;
+}
+
+/* Carousel */
+#carouselExampleCaptions {
+  width: 80%;
+}
+
+#carouselExampleCaptions video {
+  border-radius: 1%;
+}
+
+/* Boton */
+#buttonReservar {
+  background-color: #db0d17;
+  margin: 1%;
+  padding: 13px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#buttonReservar a{
+  color: #ffffff;
+  text-decoration: none !important;
+}
+
+/* Secciones */
+section {
+  max-width: 900px;
+  margin: 1%;
+}
+
+#description span {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#description ul {
+  margin-top: 2%;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#maps {
+  width: 75%;
+  max-height: 480px;
+  overflow: hidden; /* Oculta el contenido que sobresale */
+}
+
+iframe {
+  border: 0;
+  margin-top: -58px;
+}
+
+footer {
+  background: #232323;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+footer p{
+  padding: 1%;
+  margin: auto;
+  color: #ffffff;
+}

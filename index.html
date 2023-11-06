@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="%PUBLIC_URL%/rueda2.png" />
+    <title>Ofertas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="Logo" width="100%" height="24">
+          </a>
+        </div>
+      </nav>
+    </header>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <video ref={videoRef} width='100%' height='100%' muted autoplay>
+        <source src="./images/TURANZA-ER370.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+      </video>
+      <!-- <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/4x3.jpg" class="d-block w-100" alt="hondaHRV">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tenelas por tan solo $161.343 cada una</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/4x3.jpg" class="d-block w-100" alt="3sinInteres">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Si tenes Santander Rio poder abonarlo en 3 CUOTAS SIN INTERES los Martes, Jueves y Sabados</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/4x3.jpg" class="d-block w-100" alt="6sinInteres">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>6 CUOTAS SIN INTERES los Lunes y Viernes</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+    </div>
+    <button id="buttonReservar">
+      <a href="https://turnero.onrender.com/">Reserva tu turno y congela el precio ahora</a>
+    </button>
+    <section id="description">
+      <span>
+        El TURANZA ER370 es un neumático especialmente diseñado para vehículos de alta gama. Ofrece una excelente maniobrabilidad en el manejo así como también proporciona un rodaje extremandamente suave y silencioso. Ha sido seleccionado como equipamiento original de HONDA HR-V.
+      </span>
+      <ul>
+        <li>Marcha silenciosa y cómoda</li>
+        <li>Desempeño confiable en mojado o seco</li>
+        <li>Vida prolongada</li>
+        <li>Desempeño para todas las estaciones</li>
+      </ul>
+    </section>
+    <section id="maps">
+      <iframe
+        src="https://www.google.com/maps/d/u/0/embed?mid=1jnNvXHi11GCmxe6b4pgvWl0qTqHqlgo&ehbc=2E312F"
+        width="100%"
+        height="480"
+        frameborder="0"
+        allowfullscreen=""
+      ></iframe>
+    </section>
+    <footer>
+      <p>
+        ¿ Tenes dudas ? Consulta con nuestros asesores via whatsapp ( 1122790697 ) o teléfono ( 50314527 )
+      </p>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-dpnb1lQUm16NqBL2c3GCE6A7/iSFAjvO2iS0eBCyDWB1Im7OqQFqU1dEhLIx2KOK" crossorigin="anonymous"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</html>
