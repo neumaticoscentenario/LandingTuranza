@@ -11,8 +11,13 @@ body {
   background-color: #000000 !important;
 }
 
+.navbar-brand{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 header img {
-  height: auto;
+  height: 100px;
   margin: 0px 0;
 }
 
@@ -50,12 +55,14 @@ section {
 #description span {
   color: #ffffff;
   font-size: 20px;
+  font-family: 'Lato', sans-serif;
 }
 
 #description ul {
   margin-top: 2%;
   color: #ffffff;
   font-size: 20px;
+  font-family: 'Lato', sans-serif;
 }
 
 #maps {
