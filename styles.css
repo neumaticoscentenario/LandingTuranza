@@ -9,6 +9,8 @@ body {
 .navbar {
   display: flex;
   background-color: #000000 !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .navbar-brand{
@@ -17,7 +19,7 @@ body {
 }
 
 header img {
-  height: 100px;
+  height: 95px;
   margin: 0px 0;
 }
 
@@ -48,21 +50,21 @@ header img {
 
 /* Secciones */
 section {
-  max-width: 900px;
-  margin: 1%;
+  max-width: 1000px;
+  margin-bottom: 1%;
 }
 
 #description span {
   color: #ffffff;
   font-size: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #description ul {
   margin-top: 2%;
   color: #ffffff;
   font-size: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #maps {
@@ -82,10 +84,48 @@ footer {
   align-items: center;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 footer p{
   padding: 1%;
-  margin: auto;
   color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  header img {
+    height: 70px;
+  }
+
+  #buttonReservar {
+    padding: 11px 18px;
+    font-size: 15px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+
+  section {
+    max-width:90%
+  }
+
+  #description{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+
+  #maps{
+    width: 90%;
+    margin-bottom: 2%;
+    max-height: 350px;
+  }
+
+  footer p{
+    padding: 3%;
+    color: #ffffff;
+  }
 }
