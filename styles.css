@@ -127,5 +127,6 @@ footer p{
   footer p{
     padding: 3%;
     color: #ffffff;
+    margin-top: 0;
   }
 }
