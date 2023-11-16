@@ -25,7 +25,7 @@ header img {
 
 /* Carousel */
 #carouselExampleCaptions {
-  width: 75%;
+  width: 90%;
 }
 
 #carouselExampleCaptions video {
@@ -98,6 +98,10 @@ footer p{
 @media (max-width: 900px) {
   header img {
     height: 70px;
+  }
+
+  #carouselExampleCaptions{
+    width: 100%;
   }
 
   #buttonReservar {
